@@ -1,0 +1,58 @@
+/* General styling for the container to ensure content is centered */
+
+/* Styling for buttons to be centered */
+.buttons-container-fetch {
+    display: flex;
+    gap: 10px; /* Provides space between buttons */
+    align-items: center;
+    justify-content: flex-start; /* Aligns fetch buttons to the left */
+    margin-bottom: 20px; /* Space below the buttons for separation */
+}
+
+.buttons-container-add {
+    display: flex;
+    justify-content: center; /* Centers the Add New Member button horizontally */
+    margin-bottom: 20px; /* Space below the button for separation */
+}
+
+.btn-fetch {
+    margin: 5px; /* Adds a little space around each button */
+    background-color: #af4c7f; /* Makes the Add New Member button green */
+    border-color: #4CAF50; /* Ensures the border is also green */
+    justify-content: left; /* Centers the buttons horizontally */
+    align-items: left; /* Centers the buttons vertically (if needed) */
+    flex-wrap: wrap; /* Allows buttons to wrap in smaller screens */
+}
+
+/* If you specifically want only the Add New Member button to be green, and not the fetch buttons, use the .btn-add-new class separately */
+.btn-add-new {
+    background-color: #4CAF50; /* Green background */
+    border-color: #4CAF50; /* Green border */
+    color: white; /* White text */
+    justify-content: center; /* Centers the buttons horizontally */
+    align-items: center; /* Centers the buttons vertically (if needed) */
+    flex-wrap: wrap; /* Allows buttons to wrap in smaller screens */
+}
+
+.btn-add-new {
+
+    justify-content: center; /* Centers the buttons horizontally */
+    align-items: center; /* Centers the buttons vertically (if needed) */
+
+}
+
+/* Ensures the table takes full width */
+.table {
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* Style adjustments for the modal for consistency */
+.modal-content {
+    text-align: center; /* Centers the text inside the modal */
+}
+
+/* Optional: Style for table rows and headers for better readability */
+.table th, .table td {
+    text-align: center; /* Centers text in table headers and cells */
+}

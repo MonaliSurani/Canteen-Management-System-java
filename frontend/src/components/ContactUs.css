@@ -1,0 +1,24 @@
+.container {
+  /*max-width: 600px;*/
+  margin: 50px auto;
+  /*padding: 20px;*/
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+ 
+.container h1,
+.container h2 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.container p {
+  margin-bottom: 10px;
+}
+
+.additional-details p:nth-child(4) {
+  margin-bottom: 10px; 
+}
+  

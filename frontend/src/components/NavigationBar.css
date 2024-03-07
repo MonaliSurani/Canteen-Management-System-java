@@ -1,0 +1,24 @@
+body {
+    text-decoration: none;
+    text-align: right;
+}
+
+.right {
+    display: flex;
+    position: absolute;
+    right: 5rem;
+}
+.logo{
+    color: #72c3e3;
+    text-decoration: none;
+}
+.textcolor {
+    color: #72c3e3;
+   align-items: right;
+    text-decoration: none;
+}
+
+.bar {
+    margin:5px;
+    font-weight: 500;
+}

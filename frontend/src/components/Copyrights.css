@@ -1,0 +1,28 @@
+.copyrights{
+  background-color: #87CEEB; 
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  align-items:center;
+}
+.footerstatement {
+  
+    /*margin-left:120px;
+    margin-top:10px;*/
+    flex: 1;
+    margin:2px;
+    padding-left:300px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+  }
+  @media (max-width :768px){
+    .copyrights {
+      flex-direction: column;
+      align-items: center ;
+    }
+    footerstatement {
+        text-align: center;
+      }
+    }
+  
